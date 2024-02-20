@@ -1,0 +1,123 @@
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/mobile.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+</head>
+<body>
+	  
+	<div data-role="page" id="page1" data-theme="a">
+
+		<div data-role="navbar" data-theme="a">
+			<ul>
+			  <li><a href="#page1"  data-theme="a">Home</a></li>
+			  <li><a href="#page2"  data-theme="b">Admin</a></li>
+			  <li><a href="#page3"  data-theme="c">About us</a></li>
+			</ul>
+		  </div>
+
+		<div data-role="header" data-position="inline">
+			<h1>Welcome</h1>
+		</div>
+
+		<div data-role="content" data-theme="a">
+			<div class="content" data-role="content">
+				<p>Homepage</p>
+
+				<div class="main">
+					<h3>Enter your login credentials</h3>
+					<form action="">
+						<label for="first">
+							  Enter your name:
+						  </label>
+						<input type="text"
+							   id="first"
+							   name="first"
+							   placeholder="Enter your Username" required>
+			 
+						<div class="wrap">
+							<a href="#page2" data-role="button">Submit</a>
+						</div>
+					</form>
+				</div>
+
+				
+			  </div>
+			  <footer data-role="footer">
+				<h1>KBTCOE</h1>
+			  </footer>
+		</div>
+	</div>
+
+	<div data-role="page" id="page2" data-theme="b">
+
+		<div data-role="navbar" data-theme="a">
+			<ul>
+			  <li><a href="#page1"  data-theme="a">Home</a></li>
+			  <li><a href="#page2"  data-theme="b">Admin</a></li>
+			  <li><a href="#page3"  data-theme="c">About us</a></li>
+			</ul>
+		  </div>
+		  
+		<div data-role="header" data-position="inline">
+			<h1>Admin</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<div class="content" data-role="content">
+				<p>Admin page</p>
+				<div data-role="collapsible">
+					<h3>Admin names</h3>
+					<ul>
+						<li>Ms. Gatane</li>
+						<li>Ms. Pawar</li>
+						<li>Mr. Jadhav</li>
+						<li>Mr. Birari</li>
+					  </ul>
+				  </div>
+				  <a href="#page3" data-role="button">Know About jQuery Mobile</a>
+			  </div>
+			  <footer data-role="footer">
+				<h1>KBTCOE</h1>
+			  </footer>
+		</div>
+	</div>
+
+	<div data-role="page" id="page3" data-theme="b">
+
+		<div data-role="navbar" data-theme="a">
+			<ul>
+			  <li><a href="#page1"  data-theme="a">Home</a></li>
+			  <li><a href="#page2"  data-theme="b">Admin</a></li>
+			  <li><a href="#page3"  data-theme="c">About us</a></li>
+			</ul>
+		  </div>
+		  
+		<div data-role="header" data-position="inline">
+			<h1>About Us</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<div class="content" data-role="content">
+				<p>Introduction
+					With the increased number of mobile phone users, thousands of mobile apps are getting introduced daily. As creating mobile web apps are easier compared to creating native mobile apps, more and more companies and developers are now into mobile web app development. Unlike native mobile apps, mobile web apps are accessed from the browsers on the device. Moreover, mobile web apps are cross device and cross platform.
+					
+					But, the main issue when developing mobile applications with HTML and CSS is that different browsers and devices treat your code differently and hence the output would be normally different. So you would have to write different sets of code for different devices to overcome this issue. That is, you would have to create different styles for different elements to make them appear in different devices the way you want. In short, you will have to concentrate more on device handling than your project implementation. Here jQuery Mobile can help you.
+					
+					If you are a mobile user who accesses web sites using your mobile browser, then you might have felt that there is a huge difference in the appearance of web sites accessed from a desktop browser and those accessed from a mobile browser. jQuery Mobile helps you develop sites that are optimized for mobile devices and also to develop apps that look more like mobile apps than normal web applications.
+					
+					jQuery Mobile is a popular framework that is built on the top of jQuery library. As the name indicates, it is used for creating applications for touch optimized devices. jQuery Mobile creates a code base that handles the differences between devices, that too with a support of large range of devices. It works on all popular smartphones and tablets. It uses HTML5, CSS3 and AJAX for laying out pages with minimal scripting. jQuery Mobile is a free, open source library like jQuery. Popularity of mobile web apps make jQuery Mobile also so popular.</p>
+			  </div>
+			  <footer data-role="footer">
+				<h1>THANKYOU!!!</h1>
+			  </footer>
+		</div>
+	</div>
+
+
+</body>
+</html>
